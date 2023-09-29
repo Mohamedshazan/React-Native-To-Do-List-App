@@ -1,31 +1,92 @@
-# React-Native-To-Do-List-App
-This is a simple ToDo list mobile application built using React Native. The app allows users to create, manage, and organize their tasks in an easy-to-use interface. With this ToDo list app, users can keep track of their daily tasks, set priorities, and mark tasks as completed.
+# React Native To-Do List App
 
+A simple To-Do list mobile application built with React Native. This app allows users to create, manage, and organize their tasks and to-do items.
 
-Title: React Native ToDo List App
+![App Screenshot](screenshot.png)
 
-Description:
-This is a simple ToDo list mobile application built using React Native. The app allows users to create, manage, and organize their tasks in an easy-to-use interface. With this ToDo list app, users can keep track of their daily tasks, set priorities, and mark tasks as completed.
+## Table of Contents
 
-Features:
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-Add tasks: Easily add new tasks to the ToDo list by typing the task description and tapping the "Add" button.
-Edit tasks: Update task descriptions or modify details whenever needed.
-Delete tasks: Swipe right on a task to delete it from the list.
-Mark tasks as completed: Tap on a task to mark it as completed, and the task will be visually distinguished.
-Clear all completed tasks: A dedicated "Clear Completed" button allows users to remove all completed tasks at once.
-Priority levels: Assign priority levels (e.g., High, Medium, Low) to tasks for better organization.
-Simple and Intuitive UI: The user interface is designed to be user-friendly and straightforward for a seamless task management experience.
-Persistence: The app uses local storage to save tasks, ensuring that the tasks remain accessible even after closing the app.
-How to Run:
+## Features
 
-Clone the repository to your local machine.
-Ensure you have Node.js and npm installed.
-Open a terminal and navigate to the project's root directory.
-Run npm install to install the project dependencies.
-Connect your Android or iOS device or set up an emulator/simulator.
-Run npx react-native run-android for Android or npx react-native run-ios for iOS to start the development server and launch the app on your device or emulator.
+- Create tasks with titles and descriptions.
+- Mark tasks as completed.
+- Edit task details.
+- Delete tasks.
+- Organize tasks into categories.
+- Filter tasks by category or completion status.
+- User-friendly and intuitive interface.
 
+## Prerequisites
 
-Contributing:
-Contributions are welcome! If you find any bugs or have ideas for new features, feel free to open an issue or submit a pull request.
+Before you begin, ensure you have met the following requirements:
+
+- Node.js and npm installed on your development machine.
+- Expo CLI installed globally (`npm install -g expo-cli`).
+- A mobile device with the Expo Go app installed for testing on a physical device, or an Android/iOS emulator.
+
+## Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/yourusername/react-native-todo-app.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd react-native-todo-app
+Install the project dependencies:
+
+bash
+Copy code
+npm install
+Usage
+Start the development server:
+
+bash
+Copy code
+npm start
+This will launch the Expo development environment and provide you with a QR code.
+
+To run the app on your mobile device, scan the QR code using the Expo Go app (Android) or the Camera app (iOS).
+
+Alternatively, you can run the app on an Android or iOS emulator by following the Expo CLI instructions.
+
+Folder Structure
+The project structure is organized as follows:
+
+/assets: Contains static assets like images and icons.
+/components: Contains reusable UI components.
+/navigation: Contains the app's navigation setup.
+/screens: Contains the individual screens of the app.
+/store: Contains state management using Redux.
+/utils: Contains utility functions and helpers.
+Technologies Used
+React Native
+Expo
+Redux for state management
+React Navigation for navigation
+AsyncStorage for data persistence
+Contributing
+Contributions are welcome! If you'd like to contribute to the project, please follow these guidelines:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and commit them.
+Submit a pull request.
+License
+This project is open-source and available under the MIT License. Feel free to use, modify, and distribute the code as needed.
+
+javascript
+Copy code
+
+Remember to replace placeholders such as `yourusername`, `react-native-todo-app`, and `sc
